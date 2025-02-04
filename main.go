@@ -5,6 +5,10 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
 
+func noneFunc() {
+	return
+}
+
 func main() {
 	app := fiber.New()
 
